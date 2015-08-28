@@ -6,7 +6,7 @@ package org.l2x6.maven.srcdeps.itest;
  */
 public class App {
 
-    private final String message = "Hello World!";
+    private final String message = "Good Morning World!";
 
     public String getMessage() {
         return message;
