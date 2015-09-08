@@ -23,7 +23,7 @@
     <groupId>org.l2x6.maven.srcdeps.itest</groupId>
     <artifactId>srcdeps-test-artifact</artifactId>
     <version>0.0.2-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>srcdeps-test-artifact</name>
     <description>A simple project to test srcdeps-maven-plugin</description>
@@ -44,6 +44,11 @@
             <timezone>Europe/Prague</timezone>
         </developer>
     </developers>
+
+    <modules>
+        <module>srcdeps-test-artifact-api</module>
+        <module>srcdeps-test-artifact-service</module>
+    </modules>
 
     <scm>
         <connection>scm:git:git@github.com:l2x6/srcdeps-test-artifact.git</connection>
@@ -68,4 +73,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>

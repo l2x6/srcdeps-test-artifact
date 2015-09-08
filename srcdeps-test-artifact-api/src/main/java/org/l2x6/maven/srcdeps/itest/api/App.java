@@ -1,4 +1,4 @@
-package org.l2x6.maven.srcdeps.itest;
+package org.l2x6.maven.srcdeps.itest.api;
 
 /**
  * Hello world!
