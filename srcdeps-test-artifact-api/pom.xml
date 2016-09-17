@@ -34,20 +34,15 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-antrun-plugin</artifactId>
-            <version>1.8</version>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>templating-maven-plugin</artifactId>
+            <version>1.0.0</version>
             <executions>
               <execution>
-                <phase>generate-resources</phase>
+                <id>filter-src</id>
                 <goals>
-                  <goal>run</goal>
+                  <goal>filter-sources</goal>
                 </goals>
-                <configuration>
-                  <tasks>
-                    <echo>Hello [${hello.addressee}]!</echo>
-                  </tasks>
-                 </configuration>
               </execution>
             </executions>
           </plugin>
