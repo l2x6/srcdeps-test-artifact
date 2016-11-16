@@ -63,6 +63,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <srcdeps.testString>manamana</srcdeps.testString>
     </properties>
 
     <dependencyManagement>
